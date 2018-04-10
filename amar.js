@@ -1,2 +1,2 @@
-function start{
+function start(){
 }

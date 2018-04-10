@@ -29,3 +29,21 @@ table {
   75% {background:purple;}
   100% {background:red;}
 }
+
+#knight{
+  background-image: url("img/knight.png");
+  height:192px;
+  width:192px;
+}
+
+#sorcerer{
+  background-image: url("img/sorcerer.png");
+  height:192px;
+  width:192px;
+}
+
+#archer{
+  background-image: url("img/archer.png");
+  height:192px;
+  width:192px;
+}
