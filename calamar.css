@@ -16,18 +16,18 @@ h1 {
    -8px -8px 0 firebrick,
    -30px 20px 40px dimgrey
 }
-table {
+body {
   border:black;
   animation:bordercolors 10s;
   -webkit-animation:bordercolors 10s infinite;
 }
 
 @-webkit-keyframes bordercolors {
-  0% {background:red;}
-  25% {background:green;}
-  50% {background:blue;}
-  75% {background:purple;}
-  100% {background:red;}
+  0% {background:hotpink;}
+  25% {background:lime;}
+  50% {background:cyan;}
+  75% {background:violet;}
+  100% {background:hotpink;}
 }
 
 #knight{
@@ -46,4 +46,20 @@ table {
   background-image: url("img/archer.png");
   height:192px;
   width:192px;
+}
+
+#start{
+  height: 125px;
+  width: 200px;
+  color: teal;
+  font-size: 50px;
+  background-color: beige;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+#description{
+  font-size: 42px;
+  font-style: bold;
 }
