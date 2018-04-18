@@ -16,6 +16,7 @@ h1 {
    -8px -8px 0 firebrick,
    -30px 20px 40px dimgrey
 }
+
 body {
   border:black;
   animation:bordercolors 10s;
