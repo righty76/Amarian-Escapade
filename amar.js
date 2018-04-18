@@ -1,18 +1,9 @@
 var character;
 
-function knightStart(){
-  character = "knight";
-}
 
-function sorcererStart(){
-  character =  "sorcerer";
-}
+function start(person){
+  character = person;
 
-function archerStart(){
-  character =  "archer";
-}
-
-function start(){
   var hidden = document.getElementById('characterSelect');
   if (hidden.style.display === "none") {
         hidden.style.display = "block";
@@ -25,4 +16,14 @@ function start(){
     } else {
         show.style.display = "none";
     }
+}
+
+function shop(){
+  if(character = knight){
+
+  } else if(character = archer){
+
+  } else if(character = sorcerer){
+
+  }
 }
