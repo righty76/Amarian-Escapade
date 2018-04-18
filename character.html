@@ -6,10 +6,18 @@
   </head>
   <body>
     <center>
-      <h1>Character Select</h1>
-      <button id="knight" onclick=""></button>
-      <button id="sorcerer" onclick=""></button>
-      <button id="archer" onclick=""></button>
+      <div id="characterSelect">
+        <h1>Character Select</h1>
+        <button id="knight" onclick="start()"></button>
+        <button id="sorcerer" onclick="start()"></button>
+        <button id="archer" onclick="start()"></button>
+      </div>
+      <div id="home" style="display:none;">
+        <h1>Home</h1>
+        <button id="explore" onclick="explore()">Explore</button>
+        <button id="shop" onclick="shop()">Shop</button>
+        <button id="arena" onclick="arena()">Arena</button>
+      </div>
     </center>
   </body>
 </html>
