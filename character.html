@@ -8,15 +8,41 @@
     <center>
       <div id="characterSelect">
         <h1>Character Select</h1>
-        <button id="knight" onclick="start()"></button>
-        <button id="sorcerer" onclick="start()"></button>
-        <button id="archer" onclick="start()"></button>
+        <button id="knight" onclick="start('knight')"></button>
+        <button id="sorcerer" onclick="start('sorcerer')"></button>
+        <button id="archer" onclick="start('archer')"></button>
+      </br></hr>
+        <p>Knight: 200HP 100Damage</p>
+        <p>Sorcerer: 150HP 150Damage</p>
+        <p>Archer: 100HP 100Damage</p>
       </div>
       <div id="home" style="display:none;">
         <h1>Home</h1>
-        <button id="explore" onclick="explore()">Explore</button>
-        <button id="shop" onclick="shop()">Shop</button>
-        <button id="arena" onclick="arena()">Arena</button>
+        <button onclick="explore()">Explore</button>
+        <button onclick="shop()">Shop</button>
+        <button onclick="arena()">Arena</button>
+      </div>
+      <div id="explorePage" style="display:none;">
+        <h1>Minion BATTLE!</h1>
+        <div>
+          <h3>Enemy Amarian</h3>
+
+        </div>
+      </div>
+      <div id="knightShop" style="display:none;">
+        <button id="oldSword" onclick="shop('knight')"></button>
+        <button id="epicSword" onclick="shop('knight')"></button>
+        <button id="legendarySword" onclick="shop('knight')"></button>
+      </div>
+      <div id="archerShop" style="display:none;">
+        <button id="oldBow" onclick="shop('archer')"></button>
+        <button id="epicBow" onclick="shop('archer')"></button>
+        <button id="legendaryBow" onclick="shop('archer')"></button>
+      </div>
+      <div id="sorcererShop" style="display:none;">
+        <button id="oldStaff" onclick="shop('sorcerer')"></button>
+        <button id="epicStaff" onclick="shop('sorcerer')"></button>
+        <button id="legendaryStaff" onclick="shop('sorcerer')"></button>
       </div>
     </center>
   </body>
