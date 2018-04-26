@@ -18,15 +18,21 @@
       </div>
       <div id="home" style="display:none;">
         <h1>Home</h1>
-        <button onclick="explore()">Explore</button>
-        <button onclick="shop()">Shop</button>
-        <button onclick="arena()">Arena</button>
+        <button onclick="explore()" id="explore">Explore</button>
+        <button onclick="shop()" id="shop">Shop</button>
+        <button onclick="arena()" id="arena">Arena</button>
       </div>
       <div id="explorePage" style="display:none;">
         <h1>Minion BATTLE!</h1>
         <div>
-          <h3>Enemy Amarian</h3>
-
+          <h3 id="enemyText">Enemy Amarian</h3>
+          <img src="img/firstenemy.png" id="enemy1">
+          <br>
+          <br>
+          <br>
+          <img src="img/knight.png" id="enemy2">
+          <br>
+          <button onclick="attack('minion')" id="attack">Attack</button>
         </div>
       </div>
       <div id="knightShop" style="display:none;">
