@@ -121,3 +121,57 @@ body {
 #enemy2{
   float:left
 }
+
+#oldSword{
+  background-image: url("./img/oldSword.jpg");
+  height:192px;
+  width:192px;
+}
+
+#epicSword{
+  background-image: url("img/epicSword.jpg");
+  height:192px;
+  width:192px;
+}
+
+#legendarySword{
+  background-image: url("img/legendarySword.jpg");
+  height:192px;
+  width:192px;
+}
+
+#oldBow{
+  background-image: url("img/oldBow.png");
+  height:192px;
+  width:192px;
+}
+
+#epicBow{
+  background-image: url("img/epicBow.png");
+  height:192px;
+  width:192px;
+}
+
+#legendaryBow{
+  background-image: url("img/legendaryBow.png");
+  height:192px;
+  width:192px;
+}
+
+#oldStaff{
+  background-image: url("img/oldStaff.png");
+  height:192px;
+  width:192px;
+}
+
+#epicStaff{
+  background-image: url("img/epicStaff.png");
+  height:192px;
+  width:192px;
+}
+
+#legendaryStaff{
+  background-image: url("img/legendaryStaff.png");
+  height:192px;
+  width:192px;
+}
