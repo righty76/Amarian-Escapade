@@ -79,8 +79,8 @@ function battle(character, health){
   }
 }
 
-function shop(character){
-  if(character = knight){
+function shop(){
+  if(character == 'knight'){
     var shopKnight = document.getElementById('knightShop');
     if (shopKnight.style.display === "none") {
           shopKnight.style.display = "block";
@@ -93,7 +93,7 @@ function shop(character){
       } else {
           show.style.display = "none";
       }
-  } else if(character = archer){
+  } else if(character == 'archer'){
     var shopArcher = document.getElementById('archerShop');
     if (shopArcher.style.display === "none") {
           shopArcher.style.display = "block";
@@ -106,7 +106,7 @@ function shop(character){
       } else {
           show.style.display = "none";
       }
-  } else if(character = sorcerer){
+  } else if(character == 'sorcerer'){
     var shopSorcerer = document.getElementById('sorcererShop');
     if (shopSorcerer.style.display === "none") {
           shopSorcerer.style.display = "block";
