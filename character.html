@@ -14,7 +14,7 @@
       </br></hr>
         <p>Knight: 200HP 100Damage</p>
         <p>Sorcerer: 150HP 150Damage</p>
-        <p>Archer: 100HP 100Damage</p>
+        <p>Archer: 100HP 200Damage</p>
       </div>
       <div id="home" style="display:none;">
         <h1>Home</h1>
@@ -32,7 +32,7 @@
           <br>
           <img src="img/knight.png" id="enemy2">
           <br>
-          <button onclick="attack('minion')" id="attack">Attack</button>
+          <button onclick="attack()" id="attack">Attack</button>
         </div>
       </div>
       <div id="knightShop" style="display:none;">
@@ -49,6 +49,11 @@
         <button id="oldStaff" onclick="shop('sorcerer')"></button>
         <button id="epicStaff" onclick="shop('sorcerer')"></button>
         <button id="legendaryStaff" onclick="shop('sorcerer')"></button>
+      </div>
+      <div id="victory1" style="display:none;">
+        <h1>Victory</h1>
+        <button onclick="explore()" id="explore">Continue Journey</button>
+        <button onclick="shop()" id="shop">Shop</button>
       </div>
     </center>
   </body>
